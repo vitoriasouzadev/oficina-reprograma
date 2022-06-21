@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,600;1,400&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* imagenzinha do site */
+  .banner-site {
+    background-image: url("../img/banner-bg.png");
+    height: 500px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  /* imagenzinha do site */
+
+  
+  /* Titulo de duas cores e subtitulo do site */
+  .titulo-site {
+    color: #f5008f;
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-family: 'Lora', serif;
+    
+  }
+  .titulo-site span{
+    color: black;
+    font-size: 39px;
+    font-family: 'Lora', serif;
+  }
+  .subtitulo-site {
+    color: #56504e;
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  /* Titulo de duas cores e subtitulo do site */
+
+
+   
+  /* Botão conheça mais sobre mim*/
+  .button{
+  background-color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 9px 20px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  transition: 0.3s;
+  border-style: double;
+  
+}
+.button:hover {
+  background-color: #f5008f;
+  color: #ffffff;
+  font-weight: bold;
+  -ms-transform: scale(1.3); /* IE 9 */
+    -webkit-transform: scale(1.3); /* Safari 3-8 */
+    transform: scale(1.3); 
+}
+  /* Botão conheça mais sobre mim*/
+
+  /* Linha dashedzinha das páginas*/
+  hr {
+    border-top: 11px dashed #f5008f;
+    margin: 28px;  
+  }
+  /* Linha dashedzinha das páginas*/
+
+
+  .section-sobre-mim {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+    width: 85%;
+    margin-bottom: 15px;
+    margin-top: 0px;
+  }
+  
+  .div-lado-esquerdo {
+    margin-right: 50px;
+  }
+  
+  .paragrafo-sobre-mim {
+    margin-bottom: 30px;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    text-align: justify;
+    margin-right: 140px;
+    color: #56504e;
+    padding: 0 25px;
+}
+  
+
+  .listinhas li{
+    color: #f5008f;
+    font-family: 'Lora', serif;
+    white-space: nowrap;
+    font-size: 20px;
+    margin-right: 35px;
+  }
+
+
+  .florzinha{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+
+  }
+  
+  .titulo-sobre-mim {
+    color: black;
+    padding: 0 80px;    
+    margin-top: 30px;
+    font-family: 'Lora', serif;
+    text-size-adjust: 20px;
+  }
+
+  .pickme{
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+    display: none;
+  }
+
+  .titulo-sobre-mim:hover + .pickme {
+    display: block;
+    font-family: 'Lora', serif;
+
+  }
+  
+  .titulo-minhas-habilidades {
+    color: #000000;
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family: 'Lora', serif;
+
+  }
+  
+  /* Botão conheça meu CV*/
+  .ancora-conheca-meu-site {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border-style: double;
+  }
+  
+  .ancora-conheca-meu-site:hover {
+    background-color: #f5008f;
+    color: #ffffff;
+    font-weight: bold;
+    }
+
+  /* Botão conheça meu CV*/
+
+
+
+
+
+  .section-redes-sociais {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 40px;
+  }
+  
+  .card-redes-sociais {
+    background-color: #f5008f;
+    width: 150px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    border-style: double;
+
+  }
+  .card-redes-sociais:hover{
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: bold;
+    -ms-transform: scale(1.3); /* IE 9 */
+    -webkit-transform: scale(1.3); /* Safari 3-8 */
+    transform: scale(1.3); 
+  }
+  
+  .nome-rede-social {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .nome-usuario-rede-social{
+    font-size: 15px;
+  }
+  
+  .destaque-nome{
+    color: #f5008f;
+    font-weight: bold;
+  }
+  
+  .icone-rede-social {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+  }
+
+  .div-teste {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+  footer {
+    display: block;
+}
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.rodape__paragrafo{
+    text-align: center;
+    color: #56504e;
+    margin-bottom: 30px;
+    font-weight: bold;
+    background-color: #ffffff;
+    font-family: 'Lora', serif;
+
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #f5008f; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: black; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: blacks; 
+}
